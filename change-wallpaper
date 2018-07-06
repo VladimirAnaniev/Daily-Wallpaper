@@ -1,6 +1,6 @@
 #!/bin/bash
 
-path=~/Pictures/Bing-Wallpaper/tst.jpg
+path=/tmp/bing-wallpaper.jpg
 
 wget "http://www.bing.com/HPImageArchive.aspx?format=rss&idx=0&n=1&mkt=en-US" -O  /tmp/bing.txt
 img_result=$(grep -o 'src="[^"]*"' /tmp/bing.txt | grep -o '/.*.jpg')
