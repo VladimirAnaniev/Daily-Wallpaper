@@ -1,4 +1,4 @@
 #!/bin/bash
 
-rm /ect/cron.daily/change-wallpaper
+rm /etc/cron.daily/change-wallpaper
 
